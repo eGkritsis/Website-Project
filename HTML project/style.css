@@ -1,0 +1,268 @@
+.tableproducts table,th,td{
+	table-layout: fixed ;
+	width: 60%;
+}
+.tablecontact table,th,td {
+	border: none;
+	table-layout: fixed ;
+	width: 70%;
+
+}
+.tableproducts tr:nth-child(even) {
+	background-color: #006BB3;
+}
+
+.tableproducts tr:nth-child(odd) {
+	background-color: DodgerBlue;
+}
+.tableproducts th{
+	text-align: center;
+}
+.tableproducts td{
+	text-align: left;
+	padding: 10px;
+}
+.menu a {
+	float: left;
+	display: block;
+	color: black;
+	text-align: center;
+	padding: 14px 16px;
+	text-decoration: none;
+	font-size: 17px;
+}
+.menuproducts{
+	position: fixed;
+	z-index: 1;
+}
+.menu {
+	overflow: hidden;
+	background-color: #006BB3;
+	position: fixed;
+	top: 0;
+	left: 0;
+	width: 100%;
+	z-index:1;
+}
+.menu a:hover {
+	background-color: #5CB3FF;
+	color: black;
+}
+body{
+	font-family: calibri;
+	margin:0;	
+}
+a:hover{
+	color: red;
+	background-color: transparent;
+}
+a{
+	color: black;
+}
+#title { 
+	text-align: center;
+	color: black;
+	font: italic bold 40px sans-serif;
+	margin-top: 20px;
+}
+
+#list1 {
+	text-align: center;
+	color: black;
+	list-style-type: none;	
+}
+
+#Details {
+	text-align: center;
+	color: black;
+	font-family: calibri;
+	text-decoration: underline;
+}
+
+#Price {
+	text-align: center;
+	color: black;
+	font-family: calibri;
+	text-decoration: underline;
+}
+
+#Specs {
+	text-align: center;
+	color: black;
+	font-family: calibri;
+	text-decoration: underline;
+}
+
+#Paragraph1 {
+	text-align: center;
+	color: black;
+	text-indent: 50px;
+	height: 230px;
+	padding: 10px;
+	font-family: cailibri;
+	width: 800px;
+	margin-left: auto;
+	margin-right: auto;
+	background-color: #005c99;
+}
+
+#table1 {
+	width: 50%;
+	text-align: center;
+	margin-left: auto;
+	margin-right: auto;
+	color: black;
+}
+
+#table1 TD {
+	padding: 10px;
+}
+
+
+#table1 TR:nth-child(even) {
+	background-color: #5CB3FF;
+}
+#table1 TR:nth-child(odd) {
+	background-color: White;
+}
+
+#image1 {
+	position: absolute;
+	left: 50px;
+	top: 400px;
+}
+
+#table2 {
+	position: absolute;
+	left: 50px;
+	top: 700px;
+	color: gray;
+	height: 200px;
+	padding: 10px;
+	border: 1px solid black;
+}
+
+#table3 {
+	width: 100%;
+	text-align: center;
+	margin-left: auto;
+	margin-right: auto;
+	height: 200px;
+	table-layout: fixed;
+	border-style: double;
+}
+
+#table3 TD {
+	padding: 10px;
+}
+
+#image2 {
+	left: 0px;
+	top: 100px;
+	position: absolute; 
+}
+
+#body_1 {
+	background-color:#007acc;
+}
+
+#ending_paragraph {
+	text-align: center;
+	color: black;
+	text-indent: 50px;
+	height: 170px;
+	padding: 10px;
+	font-family: cailibri;
+	width: 800px;
+	margin-left: auto;
+	margin-right: auto;
+	background-color: #005c99;
+}
+
+#sources {
+	text-align: center;
+}
+
+#photos {
+	text-align: center;
+}
+
+#contact_photo {
+	bottom: 0;
+	width: 100%;
+}
+#title_2 {
+
+	height: 50px;
+	padding-top: 50px;
+	padding-bottom: 30px; 
+	margin-bottom: 0px;
+	margin-right: 0px;
+	margin-left: 0px;
+	text-align: center;
+}
+
+#body_2 {
+	font-family: calibri;
+	text-align: center;
+	background-color:  #007acc;
+}
+
+#body_3 {
+	background-image: url('images/tech_background.jpg');
+	background-repeat: no-repeat;
+	background-size: 100% 85%;
+	background-position: center;
+	background-position: top;
+	font-family: calibri;
+	background-repeat: no-repeat;
+	background-size: 100% 85%;
+	background-position: center;
+	background-position: top;
+	background-color:  #007acc;
+}
+
+#p_1 {
+	background-color:  #005c99;
+	margin-left: 300px;
+	margin-right: 300px;
+	margin-top: 210px;
+	padding-bottom: 50px;
+	padding-top: 50px;
+	padding-left: 30px;
+	padding-right: 30px;
+	color: black;
+}
+
+#image_pg_1{
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: 180px;
+	width: 300px;
+	height: 50px;
+}
+
+#p_shop {
+	
+	padding-top: 40px;
+	padding-bottom: 40px;
+	margin-top: 20px;
+	margin-left: 200px;
+	margin-right: 200px; 
+	color: black;
+	background-color: #005c99;
+}
+
+#image_pg_2{
+	width: 60px;
+	height: 50px;
+	border: 0;
+}
+
+#tableshop{
+	margin-left: auto;
+	margin-right: auto;
+	border-style: solid;
+	width:10%;
+}
